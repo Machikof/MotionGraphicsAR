@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd607c3f010ab45a29ecfcf8d5a898ef, type: 3}
   m_Name: Settings
   m_EditorClassIdentifier: 
-  ARCompanionAppIP: 192.168.0.
-  port: 44819
+  ARCompanionAppIP: 192.168.1.31
   arCompanionSettings:
     maxOutgoingMessages: 2
     cameraVideoSettings:
@@ -34,6 +33,17 @@ MonoBehaviour:
       sendNormals: 1
       sendARKitBlendshapes: 1
       showFacesInCompanionApp: 1
+  packages:
+  - displayName: AR Foundation Remote
+    version: 4.7.11
+    id: com.kyrylokuzyk.arfoundationremote
+  - displayName: AR Foundation
+    version: 4.1.1
+    id: com.unity.xr.arfoundation
+  - displayName: ARKit XR Plugin
+    version: 4.1.1
+    id: com.unity.xr.arkit
+  port: 44819
   embeddedImageLibraries: []
   debugSettings:
     logStartupErrors: 1
