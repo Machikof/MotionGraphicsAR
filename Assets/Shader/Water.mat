@@ -29,11 +29,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Depth: -0.73
+    - _Depth: 1.15
     - _Displacement: 0.5
-    - _NormalStrength: 0.29
-    - _Smoothness: 0.87
+    - _NormalStrength: 0.93
+    - _Smoothness: 0.62
     - _Strength: 0.12
     m_Colors:
-    - _DeepColor: {r: 0.14417937, g: 0.6792453, b: 0.59532064, a: 0.56078434}
-    - _ShallowColor: {r: 0.33490562, g: 0.92401165, b: 1, a: 0.4392157}
+    - _DeepColor: {r: 0.14217694, g: 0.6698113, b: 0.5883383, a: 0.56078434}
+    - _ShallowColor: {r: 0.4198113, g: 0.9351553, b: 1, a: 0.4392157}
